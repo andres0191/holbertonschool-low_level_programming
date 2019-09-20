@@ -9,18 +9,14 @@ int main(void)
 {
 int a;
 char b;
-for (a = '0'; a <= '9'; a++)
+for (a = 48; a < 58; a++)
 {
 putchar (a);
-{
-if (a && 9)
-{
-for (b = 'a'; b <= 'f'; b++)
+}
+for (b = 97; b < 103; b++)
 {
 putchar (b);
 }
-}
-}
-}
+putchar ('\n');
 return (0);
 }
