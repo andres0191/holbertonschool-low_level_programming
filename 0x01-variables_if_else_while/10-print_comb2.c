@@ -7,20 +7,18 @@
 */
 int main(void)
 {
-int a, b;
-for (b = 48; b <= 57; b++)
-{
-	for (a = 48; a <= 57; a++)
-	{
-	putchar (b);
-	putchar (a);
-	if (a <= 57 && 57)
+int n1, n2;
+for (n1 = 48; n1 <= 57; n1++)
+	for (n2 = 48; n2 <= 57; n2++)
+		{
+		putchar (n1);
+		putchar (n2);
+		if (n1 != 57 || n2 != 57)
 		{
 		putchar (',');
 		putchar (' ');
 		}
-	}
-}
+		}
 putchar ('\n');
 return (0);
 }
