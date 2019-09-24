@@ -1,9 +1,10 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ *add - save the add.
+ *@a: first number
+ *@b: second number
+ * Return: result.
  */
 int add(int a, int b)
 {
