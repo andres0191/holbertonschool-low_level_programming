@@ -3,7 +3,6 @@
 /**
  * print_last_digit - this function prints the last digit of a number
  *@n: is compared with numer of the enter
- *@i: this variable save the operation with the module
  * Return: the last numer save in the variable i
  */
 int print_last_digit(int n)
