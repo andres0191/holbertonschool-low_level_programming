@@ -1,12 +1,8 @@
 #include "holberton.h"
 
 /**
- * Description:  in this proyect i was write a function that prints the sign of a number,
- * used the variable n that was created in main the name @print_sing.
- *
- * Variable description: i used variable n for compair whit the numer that i decide,
- * the variable print_sing was used and declarated with main in other file.c
- *
+ * print_sign - print the signe.
+ * @n: this variable compared with the number delcarataed.
  * Return: 1, 0 or -1 depend the case.
  */
 int print_sign(int n)
