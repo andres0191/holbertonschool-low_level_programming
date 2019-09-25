@@ -11,7 +11,7 @@ for (f = 0; f <= 9; f++)
 	for (c = 0; c <= 9; c++)
 	{
 		r = f * c;
-		_putchar(r);
+		_putchar(r + '0');
 	}
 		if (r < 9)
 		{
