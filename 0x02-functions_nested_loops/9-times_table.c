@@ -8,14 +8,15 @@ void times_table(void)
 {
 	int f, c, r, p, u;
 
-	for (c = 0; c <= 9; c++)
+	for (f = 0; f <= 9; f++)
 	{
-		for (f = 0; f <= 9; f++)
+		for (c = 0; c <= 9; c++)
 		{
 			r = f * c;
-			if (r == 0)
 			{
-				_putchar(r + '0');
+			if (c == 0)
+			{
+			_putchar(r + '0');
 			}
 			else if (r >= 10)
 			{
@@ -32,6 +33,7 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(r + '0');
+			}
 			}
 		}
 		_putchar('\n');
