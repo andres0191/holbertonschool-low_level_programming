@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
-* main - check the code for Holberton School students.
-*
+* _isupper - this function copared if c is a digit or not.
+*@c: compared with one digit
 * Return: Always 0.
 */
 int _isupper(int c)
