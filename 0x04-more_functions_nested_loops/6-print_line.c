@@ -2,7 +2,7 @@
 
 /**
   *print_line - function that draws a straight line in the terminal
-  *@a: variable for compared with n
+  *@n: variable in
  */
 
 void print_line(int n)
