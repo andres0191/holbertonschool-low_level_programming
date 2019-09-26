@@ -6,25 +6,27 @@
 */
 
 void more_numbers(void)
-{int x, a, p, u;
+{int a, b, c, d;
 a = 0;
 while (a <= 9)
 {
-	for (x = 0; x <= 14; x++)
+	for (b = 0; b <= 14; b++)
 	{
-		p = x / 10;
-		u = x % 10;
-		if (x < 10)
+		if (b < 10)
 		{
-			_putchar(u + '0');
+			c = b;
 		}
 		else
 		{
-			_putchar(p + '0');
-			_putchar(u + '0');
+			d = b / 10;
+			c = b % 10;
+			_putchar(d + '0');
+		}
+		{
+		_putchar(c + '0');
 		}
 	}
-	a++;
 	_putchar('\n');
+	a++;
 }
 }
