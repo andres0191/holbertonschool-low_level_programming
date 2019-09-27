@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
-*
-*
+*print_square -  function that prints a square, followed by a new line.
+*@size: variable for compare
 */
 
 void print_square(int size)
@@ -21,6 +21,6 @@ int a, b;
 	}
 		else
 		{
-			_putchar(' ');
+			_putchar('\n');
 		}
 }
