@@ -2,7 +2,7 @@
 /**
 * _strlen - returns the length of a string
 *@s :  space in pointer
-* Return: val 
+* Return: val
 **/
 int _strlen(char *s)
 {int a;
