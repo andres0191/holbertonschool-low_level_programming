@@ -1,18 +1,19 @@
 #include "holberton.h"
 /**
-  *
-  *
+  * _puts -  prints a string
+  * @str : count space in array
   *
 **/
 void _puts(char *str)
 {
-int x;
-	while (*str != 0)
+int x, y;
+	while (str[y] != 0)
 	{
-		str++;
-		x++;
+		y++;
 	}
-	_putchar(x + '0');
+	for (x = 0; x <= y; x++)
+	{
+	_putchar(str[x]);
+	}
 	_putchar('\n');
-
 }
