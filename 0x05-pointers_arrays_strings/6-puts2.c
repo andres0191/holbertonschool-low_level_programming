@@ -10,9 +10,12 @@ int a = 0, b;
 	{
 		a++;
 	}
-	for (b = 0; b <= (a - 1); b = b + 2)
+	for (b = 0; b < a; b = b + 2)
 	{
-	_putchar(b + '0');
+		if (b % 2 == 0)
+		{
+			_putchar(b + '0');
+		}
 	}
 	_putchar('\n');
 }
