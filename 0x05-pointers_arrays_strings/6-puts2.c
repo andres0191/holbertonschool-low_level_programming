@@ -5,14 +5,15 @@
 **/
 void puts2(char *str)
 {
-int a = 0, b;
+int a = 0, b, c;
 	while (str[a] != 0)
 	{
 		a++;
 	}
 	for (b = 0; b < a; b++)
 	{
-		if (b % 2 == 0)
+		c = b % 2;
+		if (c == 0)
 		{
 			_putchar(b + '0');
 		}
