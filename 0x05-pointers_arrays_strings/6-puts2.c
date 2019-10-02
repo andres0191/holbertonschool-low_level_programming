@@ -10,7 +10,7 @@ int a = 0, b;
 	{
 		a++;
 	}
-	for (b = 0; b < a; b = b + 2)
+	for (b = 0; b < a; b++)
 	{
 		if (b % 2 == 0)
 		{
