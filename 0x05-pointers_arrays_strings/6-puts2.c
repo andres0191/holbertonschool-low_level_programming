@@ -15,7 +15,7 @@ int a = 0, b, c;
 		c = b % 2;
 		if (c == 0)
 		{
-			_putchar(b + '0');
+			_putchar(str[b]);
 		}
 	}
 	_putchar('\n');
