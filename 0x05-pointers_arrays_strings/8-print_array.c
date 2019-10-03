@@ -1,4 +1,5 @@
-#include "stdio.h"
+#include <stdio.h>
+#include "holberton.h"
 /**
 * print_array -  prints n elements of an array of integers
 *@n : count the array
@@ -12,13 +13,10 @@ n++;
 }
 for (s = 0; s < (n - 1); s++)
 {
-if (a[s] != a[n - 2])
+	printf("%d", a[s]);
+if (s != (n - 2))
 {
-printf("%d, ", a[s]);
-}
-else
-{
-printf("%d", a[s]);
+	printf(", ");
 }
 }
 putchar('\n');
