@@ -10,7 +10,8 @@ while (str[a] != 0)
 {
 	a++;
 }
-for (b = a; b >= (a / 2); b++)
+b = (a +1) / 2;
+for (; str[b] != '\0'; b++)
 {
 	_putchar(str[b]);
 }
