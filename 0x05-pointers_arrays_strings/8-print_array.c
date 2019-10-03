@@ -7,17 +7,16 @@
 **/
 void print_array(int *a, int n)
 {int s;
-while (a[n] != 0)
-{
-n++;
-}
-for (s = 0; s < (n - 1); s++)
-{
-	printf("%d", a[s]);
-if (s != (n - 2))
-{
-	printf(", ");
-}
-}
-putchar('\n');
+	for (s = 0; s <= (n - 1); s++)
+	{
+		if (s != (n - 1))
+		{
+		printf("%d, ", a[s]);
+		}
+		else
+		{
+			printf("%d", a[s]);
+		}
+	}
+	putchar('\n');
 }
