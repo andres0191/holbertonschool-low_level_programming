@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 * puts_half - prints half of a string
-* str : array
+*@str : count the array and print the count
 **/
 void puts_half(char *str)
 {
@@ -10,7 +10,7 @@ while (str[a] != 0)
 {
 	a++;
 }
-b = (a +1) / 2;
+b = (a + 1) / 2;
 for (; str[b] != '\0'; b++)
 {
 	_putchar(str[b]);
