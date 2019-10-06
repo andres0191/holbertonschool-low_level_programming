@@ -5,23 +5,23 @@
 * Return: Always n
 **/
 
-char *cap_string(char *n)
+char *cap_string(char *s)
 {
 	int a;
 
-	for (a = 0; n[a] != '\0'; a++)
+	for (a = 0; s[a] != '\0'; a++)
 	{
-		if (n[a] >= 'a' && n[a] <= 'z')
+		if (s[a] >= 'a' && s[a] <= 'z')
 		{
-			if (n[a - 1] == ' ' || n[a - 1] == '.' || n[a - 1] == '\n' || n[a - 1] == 9)
+			if (s[a - 1] == ' ' || s[a - 1] == '.' || s[a - 1] == '\n' || s[a - 1] == 9)
 			{
-				if (n[a - 1] == 9)
+				if (s[a - 1] == 9)
 				{
-					n[a - 1] = ' ';
+					s[a - 1] = ' ';
 				}
-				n[a] = n[a] - 32;
+				s[a] = s[a] - 32;
 			}
 		}
 	}
-	return (n);
+	return (s);
 }
