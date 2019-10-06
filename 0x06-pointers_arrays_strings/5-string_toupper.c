@@ -11,10 +11,10 @@ char *string_toupper(char *x)
 
 	for (a = 0; x[a] != '\0'; a++)
 	{
-		if (x[a] <= 122 && x[a] >= 97)
+		if (x[a] <= 'z' && x[a] >= 'a')
 		{
-			x[a] = x[a] - 32;
+			x[a] = x[a] - ' ';
 		}
 	}
-	return (x + '0');
+	return (x);
 }
