@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-* string_toupper - -changes all lowercase to uppercase
-* x : pointer and array
-* Return : value of pointer
+* string_toupper - Change lowercase to uppercase
+* @x: pointer
+* Return: Always x
 **/
 
 char *string_toupper(char *x)
