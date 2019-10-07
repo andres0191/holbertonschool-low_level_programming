@@ -15,11 +15,12 @@ char *p = 0;
 		if (s[a] == c)
 		{
 			p = &s[a];
+			return (p);
 		}
 		else if (s[a] == '\0')
 		{
 			return (p);
 		}
 	}
-	return (p - 1);
+	return (p);
 }
