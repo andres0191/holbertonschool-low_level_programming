@@ -21,5 +21,5 @@ char *p = 0;
 			return (p);
 		}
 	}
-	return (p);
+	return (p - 1);
 }
