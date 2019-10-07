@@ -1,26 +1,25 @@
 #include "holberton.h"
 /**
+* leet - encodes a string into 1337
+* @a : pointer
 *
-*
-*
+* Return: Always a
 **/
 char *leet(char *a)
 {
-int b = 0, c = 0;
-int X[5] = {0,1,3,4,7};
+int b, c;
+char x[] = "4433007711";
+char y[] = "AaEeOotTlL";
 
-for (; X[c] != '\0'; c++) 
-{
-	for (; a[b] != '\0'; b++)
+	for (b = 0; a[b] != '\0'; b++)
 	{
-		if (a[b] == 'a' || a[b] == 'A' || a[b] == 'e'
-		|| a[b] == 'E' || a[b] == 'o' || a[b] == 'O'
-		|| a[b] == 't' || a[b] == 'T' || a[b] == 'l'
-		|| a[b] == 'L')
+		for (c = 0; y[c] != '\0'; c++)
 		{
-			a[b] = a[b + X];
+			if (a[b] == y[c])
+		{
+			a[b] = x[c];
+		}
 		}
 	}
-}
 return (a);
 }
