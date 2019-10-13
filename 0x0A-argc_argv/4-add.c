@@ -15,9 +15,17 @@ int main(int argc, char *argv[])
 	{
 	for (a = 1; a < argc; a++)
 	{
-		if (atoi(argv[a]))
+		if (atoi(argv[a]) >= 0)
 		{
-			b += (atoi(argv[a]));
+			if (atoi(argv[a]))
+			{
+				b += (atoi(argv[a]));
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
 		else
 		{
