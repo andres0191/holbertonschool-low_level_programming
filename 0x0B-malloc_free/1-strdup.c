@@ -9,7 +9,7 @@
 **/
 char *_strdup(char *str)
 {
-	int a, c;
+	int a = 0, c;
 	char *b;
 
 	if (str == NULL)
@@ -26,7 +26,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (c = 0; c < a; c++)
+	for (c = 0; c <= a; c++)
 	{
 		b[c] = str[c];
 	}
