@@ -35,11 +35,11 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (d = 0; d < a; d++)
+	for (d = 0; s1[d] != '\0'; d++)
 	{
 		p[d] = s1[d];
 	}
-	for (e = 0; e < b; e++)
+	for (e = 0; s2[e] != '\0'; e++)
 	{
 		p[d + e] = s2[e];
 	}
