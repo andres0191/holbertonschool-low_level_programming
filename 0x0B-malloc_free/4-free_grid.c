@@ -3,12 +3,11 @@
 #include <stdlib.h>
 
 /**
-  * print_grid - prints a grid of integers
-  * @grid: the address of the two dimensional grid
+  * alloc_grid - returns a pointer to a 2 dimensional array of integer
   * @width: width of the grid
   * @height: height of the grid
   *
-  * Return: Nothing.
+  * Return: Always p
   */
 int **alloc_grid(int width, int height)
 {
