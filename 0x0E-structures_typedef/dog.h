@@ -2,10 +2,13 @@
 #define DOG_H
 
 /**
-  * @name : name of input
-  * @age : date of input
-  * @owner : date of input
+  * struct dog - struct the information of the dog
+  *
+  * @name : name of input^
+  * @age : date of input^
+  * @owner : date of input^
   **/
+
 struct dog
 {
 	char *name;
