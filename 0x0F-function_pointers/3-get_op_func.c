@@ -24,7 +24,7 @@ int i = 0;
 
 	while (ops[i].op)
 	{
-		if (strcmp(s, ops[i].op) == 0)
+		if (strcmp(s, ops[i].op))
 		{
 			return (ops[i].f);
 		}
