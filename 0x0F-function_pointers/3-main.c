@@ -9,17 +9,18 @@
   *
   * Return: Always 0
   **/
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int (*func)(int, int);
 	int a = 0, b = 0, c = 0;
 
-	func = get_op_func(argv[2]);
+printf("%i", argc);
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
+	func = get_op_func(argv[2]);
 	if (func == NULL)
 	{
 		printf("Error\n");
