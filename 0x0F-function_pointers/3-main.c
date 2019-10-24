@@ -14,7 +14,6 @@ int main(int argc, char *argv[])
 	int (*func)(int, int);
 	int a = 0, b = 0, c = 0;
 
-printf("%i", argc);
 	if (argc != 4)
 	{
 		printf("Error\n");
