@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-  * op_sub - add into two numbers
+  * op_add - add into two numbers
   * @a: input
   * @b: input
   *
