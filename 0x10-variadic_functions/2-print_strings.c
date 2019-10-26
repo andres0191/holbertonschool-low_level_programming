@@ -1,6 +1,4 @@
 #include "variadic_functions.h"
-#include <stdlib.h>
-#include <stdio.h>
 /**
   * print_strings - function that prints strings, followed by a new line
   * @separator: is the string
@@ -18,7 +16,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		p = va_arg(a, char *);
 		if (p == NULL)
 		{
-			printf("(nil)");
+			p = "(nil)";
 		}
 		if (separator != NULL)
 		{
