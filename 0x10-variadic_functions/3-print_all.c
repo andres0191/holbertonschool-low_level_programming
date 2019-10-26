@@ -33,9 +33,9 @@ void fun4(va_list d)
 void fun5(va_list d)
 {
 	char *u = va_arg(d, char *);
-	switch (u)
+	switch (*u)
 	{
-		case 0:
+		case '\0':
 			printf("(nil)");
 			break;
 		default:
