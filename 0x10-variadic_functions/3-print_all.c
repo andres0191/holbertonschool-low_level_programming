@@ -32,7 +32,15 @@ void fun4(va_list d)
   **/
 void fun5(va_list d)
 {
-	printf("%s", va_arg(d, char *));
+	char *u = va_arg(d, char *);
+	switch (u)
+	{
+		case 0:
+			printf("(nil)");
+			break;
+		default:
+		printf("%s", u);
+	}
 }
 /**
   * print_all - function that prints anything
