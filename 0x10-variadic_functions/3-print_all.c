@@ -1,5 +1,7 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
   * fun2 - function that compare type char with the input
@@ -33,14 +35,12 @@ void fun5(va_list d)
 {
 	char *u = va_arg(d, char *);
 
-	switch (*u)
+	if (u == NULL)
 	{
-		case '\0':
-			printf("(nil)");
-			break;
-		default:
-		printf("%s", u);
+		u = ("(nil)");
+			printf ("%s", u);
 	}
+	printf("%s", u);
 }
 /**
   * print_all - function that prints anything
@@ -56,10 +56,17 @@ void print_all(const char * const format, ...)
 		};
 	va_list b;
 	int i = 0, e = 0;
+	int bandera = 0;
 
 	va_start(b, format);
 	while (format && format[i])
 	{
+		switch (bandera){
+			case 1:
+				printf(", ");
+				break;
+		}
+		bandera = 0;
 		while (e < 4)
 		{
 			if (format[i] == typeofdate[e].a)
@@ -74,6 +81,7 @@ void print_all(const char * const format, ...)
 		}
 		e = 0;
 		i++;
+		bandera++;
 	}
 	printf("\n");
 	va_end(b);
