@@ -1,7 +1,6 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
-#include <stdio.h>
-#include <stdlib.h>
+
 /**
   * fun2 - function that compare type char with the input
   * @d: copy of list of the input
@@ -33,6 +32,7 @@ void fun4(va_list d)
 void fun5(va_list d)
 {
 	char *u = va_arg(d, char *);
+
 	switch (*u)
 	{
 		case '\0':
