@@ -60,7 +60,7 @@ void print_all(const char * const format, ...)
 	va_start(b, format);
 	while (format && format[i])
 	{
-		while (format[e])
+		while (e < 4)
 		{
 			if (format[i] == typeofdate[e].a)
 			{
