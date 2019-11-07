@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-  * binary_to_unit - converts a binary number to an unsiged int
+  * binary_to_uint - converts a binary number to an unsiged int
   * @b: pointer of input
   *
   * Return: Always 0
