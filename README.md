@@ -1,1 +1,1 @@
-Create the script and realized the preprocessor and save the result into another file
+	In this projects i practice the language of programming C
