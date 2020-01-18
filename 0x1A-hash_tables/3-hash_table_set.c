@@ -23,13 +23,12 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		New_Node->next = ht->array[index];
 		ht->array[index] = New_Node;
 	}
-	if (ht->array[index] == NULL)
+	else
 	{
 		New_Node->key = strdup(key);
 		New_Node->value = strdup(value);
 		New_Node->next = ht->array[index];
 		ht->array[index] = New_Node;
 	}
-
 	return (1);
 }
