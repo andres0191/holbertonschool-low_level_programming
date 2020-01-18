@@ -18,17 +18,18 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (ht == NULL || key == NULL || value == NULL)
 		return (0);
 	index = key_index((unsigned char *)key, ht->size);
-	if (ht->array[index] == NULL)
-	{
-		New_Node->key = strdup(key);
-		New_Node->value = strdup(value);
-		ht->array[index] = New_Node;
-		New_Node->next = ht->array[index];
-	}
 	if (ht->array[index] != NULL)
 	{
 		New_Node->next = ht->array[index];
 		ht->array[index] = New_Node;
 	}
+	if (ht->array[index] == NULL)
+	{
+		New_Node->key = strdup(key);
+		New_Node->value = strdup(value);
+		New_Node->next = ht->array[index];
+		ht->array[index] = New_Node;
+	}
+
 	return (1);
 }
