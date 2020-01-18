@@ -25,6 +25,12 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 	else
 	{
+			if (strcmp(key, ht->array[index]->key) == 0)
+			{
+				free(ht->array[index]->value);
+				ht->array[index]->value = value;
+				return (1);
+			}
 		New_Node->key = strdup(key);
 		New_Node->value = strdup(value);
 		New_Node->next = ht->array[index];
