@@ -13,7 +13,7 @@ void hash_table_print(const hash_table_t *ht)
 		printf("{");
 		while (i < ht->size)
 		{
-			while ( ht->array[i])
+			while (ht->array[i])
 			{
 				if (i > 0 && bandera == 1)
 					printf(", ");
@@ -25,10 +25,10 @@ void hash_table_print(const hash_table_t *ht)
 					printf(", ");
 					continue;
 				}
-                bandera = 1;
-            }
-            i++;
-        }
-        printf("}");
-    }
+				bandera = 1;
+			}
+			i++;
+		}
+		printf("}");
+	}
 }
