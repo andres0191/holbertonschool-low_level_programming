@@ -8,18 +8,21 @@ void hash_table_print(const hash_table_t *ht)
 	unsigned long int i = 0;
 	int bandera = 0;
 
-	printf("{");
-	while (i < ht->size)
+	if (ht != NULL)
 	{
-		while (ht->array[i] != NULL)
+		printf("{");
+		while (i < ht->size)
 		{
-			if (bandera == 1)
-				printf(", ");
-			printf("'%s' : '%s'", ht->array[i]->key, ht->array[i]->value);
-			bandera = 1;
-			ht->array[i] = ht->array[i]->next;
+			while (ht->array[i] != NULL)
+			{
+				if (i > 0 && bandera == 1)
+					printf(", ");
+				printf("'%s' : '%s'", ht->array[i]->key, ht->array[i]->value);
+				bandera = 1;
+				ht->array[i] = ht->array[i]->next;
+			}
+			i++;
 		}
-		i++;
 	}
 	printf("}\n");
 }
