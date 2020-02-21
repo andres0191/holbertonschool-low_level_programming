@@ -1,5 +1,8 @@
 # MakeFiles
 
+![picture makefile](https://www.it.uc3m.es/~pedmume/asignaturas/2005/LAO/Lab2/index.1.gif)
+
+
 GNU makes a utility available on Linux that speeds up the task of compiling code from the terminal. It avoids us having to write the compilation commands by hand, which are usually very long, and instead allows us to write something much shorter than in the end it does the same. In addition, you can do many other things that will make preparing the practices to send them sewing and singing.
 
 
