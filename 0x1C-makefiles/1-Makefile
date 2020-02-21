@@ -1,6 +1,7 @@
 #Modyfi Makefile whit rules
 
 SRC = main.c holberton.c
+CC = gcc
 
 all: $(SRC)
 	$(CC) $(SRC) -o holberton
