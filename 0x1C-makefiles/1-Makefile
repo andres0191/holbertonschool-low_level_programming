@@ -1,0 +1,7 @@
+#Modyfi Makefile whit rules: cc: 
+# the compiler to be used, SRC the .c files
+
+SRC = main.c holberton.c
+
+all: $(SRC)
+	$(CC) $(SRC) -o holberton
