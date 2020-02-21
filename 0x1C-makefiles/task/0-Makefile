@@ -1,0 +1,4 @@
+# Create the first Makefile
+
+all: main.c holberton.c
+    $(CC) $^ -o holberton
