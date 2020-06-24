@@ -29,4 +29,4 @@ As challenges against this language, the [0x11. C - printf](https://github.com/T
 - [0x18. C - Dynamic libraries ](https://github.com/andres0191/holbertonschool-low_level_programming/tree/master/0x18-dynamic_libraries)
 - [0x1A. C - Hash tables ](https://github.com/andres0191/holbertonschool-low_level_programming/tree/master/0x1A-hash_tables)
 - [0x1C. C - Makefiles](https://github.com/andres0191/holbertonschool-low_level_programming/tree/master/0x1C-makefiles)
-- [0x1E. C - Search Algorithms](https://github.com/andres0191/holbertonschool-low_level_programming/tree/master- /0x1E-search_algorithms)
+- [0x1E. C - Search Algorithms](https://github.com/andres0191/holbertonschool-low_level_programming/tree/master/0x1E-search_algorithms)
