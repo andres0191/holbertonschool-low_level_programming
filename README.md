@@ -30,3 +30,9 @@ As challenges against this language, the [0x11. C - printf](https://github.com/T
 - [0x1A. C - Hash tables ](https://github.com/andres0191/holbertonschool-low_level_programming/tree/master/0x1A-hash_tables)
 - [0x1C. C - Makefiles](https://github.com/andres0191/holbertonschool-low_level_programming/tree/master/0x1C-makefiles)
 - [0x1E. C - Search Algorithms](https://github.com/andres0191/holbertonschool-low_level_programming/tree/master/0x1E-search_algorithms)
+
+**Author**
+
+# Andres Felipe Garcia Rendon
+
+- [Github](https://github.com/andres0191) - [Twitter](https://twitter.com/andres0191) - [Linkedin](https://www.linkedin.com/in/anfegar/) - [Whatsapp](https://api.whatsapp.com/send?phone=3054214488&text=Hola,%20soy%20Andres%20Garcia.%20Desarrollador%20Full%20Stack%20egreasdo%20de%20Holberton.%20En%20que%20te%20puedo%20ayudar?)
